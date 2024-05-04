@@ -3,9 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>이미지와 밝은 녹색 배경</title>
+<title>혜미님 미션판</title>
 <style>
+  @font-face {
+    font-family: 'CustomFont';
+    src: url('https://raw.githubusercontent.com/yunrang2/upload/master/%ED%95%99%EA%B5%90%EC%95%88%EC%8B%AC%EB%AA%BD%EA%B8%80%EB%AA%BD%EA%B8%80.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
   body {
+    font-family: 'CustomFont', sans-serif; /* 사용할 폰트 설정 */
     background-color: #4dff00; /* #4dff00으로 배경색 설정 */
     margin: 0;
     padding: 0;
@@ -75,6 +83,7 @@
     color: white;
     border: none;
     border-radius: 5px;
+    font-family: 'CustomFont', sans-serif; /* 사용할 폰트 설정 */
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -92,6 +101,7 @@
     color: black;
     padding: 10px;
     border-radius: 5px;
+    font-family: 'CustomFont', sans-serif; /* 사용할 폰트 설정 */
     font-size: 36px;
     display: none;
   }
